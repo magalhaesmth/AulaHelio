@@ -1,3 +1,9 @@
 void minha_funcao() {
-  print("Boa pa nois");
+  //tipo nome = atribuicao
+  String nomeProduto = "Chocolate";
+  double precoProduto = 2.2;
+  int quantidadeProduto = 3;
+
+  print(
+      '''O nome do produto é $nomeProduto, o preço segundo Matheus é $precoProduto e vamos comprar $quantidadeProduto''');
 }
