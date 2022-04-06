@@ -9,13 +9,13 @@ void minha_escola() {
 
   print("Informe seu ano de nascimento");
   var nascimento = stdin.readLineSync();
-  int nascimentoInt = int.parse(nascimento);
+  int nascimentoInt = int.parse('nascimento');
 
   print("Informe sua serie");
   var serie = stdin.readLineSync();
-  int serieInt = int.parse(serie);
+  int serieInt = int.parse('serie');
 
-  var idadeAtual = nascimentoInt - serieInt;
+  var idadeAtual =serieInt - nascimentoInt;
 
   print(
       "O r.a deste aluno é $ra, seu nome é $nome, seu ano de nascimento é $nascimento e sua serie é $serie");
